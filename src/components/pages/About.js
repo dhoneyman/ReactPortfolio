@@ -2,16 +2,20 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className='uk-grid'>
+      <div className="uk-text-center  uk-width-1-3 uk-padding">
+      <img className='portrait' src={process.env.PUBLIC_URL + "/selfbw.jpeg"} alt="" />
+      </div>
+      <div className='uk-text-left uk-width-1-3 uk-padding'>
+      <h1>Dylan Honeyman.</h1>
+      <h6>I am a Software Developer living and working in South Dallas.</h6>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I studied Geological Physics at the University of Texas at Dallas where I found my love 
+        for math and data modeling. That led me to MySQL which just started my career in software developement.
+        I have a keen eye for design with an extensive background in photography and graphic design and love learning new things 
+        and solving hard problems. 
       </p>
+      </div>
     </div>
   );
 }

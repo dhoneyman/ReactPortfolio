@@ -1,4 +1,4 @@
-// import './App.css';
+import './styles.css';
 import PortfolioContainer from "./components/PortfolioContainer";
 
 

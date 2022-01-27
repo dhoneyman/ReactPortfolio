@@ -3,7 +3,7 @@ import React from 'react';
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
-  const tabs = ['About', 'Portfolio', 'Blog', 'Contact'];
+  const tabs = ['About', 'Portfolio', 'Contact'];
 
   // const navStyle = `
   // .btn {
@@ -16,7 +16,9 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
 
     <nav id='nav' className="uk-navbar-container uk-navbar stroke">
-      <div className='uk-align-left uk-margin-top uk-margin-left uk-padding-remove'><h1 className='logo uk-padding-remove uk-margin-remove'>dh</h1></div>
+      <div className='uk-align-left uk-margin-top uk-margin-left uk-padding-remove'><a
+                href={'#about'}
+                onClick={() => handlePageChange('About')}><h1 className='logo uk-padding-remove uk-margin-remove'>dh</h1></a></div>
       {/* <img className='logo ' src={process.env.PUBLIC_URL + "/logo1.png"} alt="" /> */}
       {/* <img className='logo ' src={process.env.PUBLIC_URL + "/logo2.png"} alt="" /> */}
       {/* <img className='logo ' src={process.env.PUBLIC_URL + "/logo3.png"} alt="" /> */}
@@ -24,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <ul className="uk-navbar-nav">
 
           {tabs.map(tab => (
-            <li className="uk-active">
+            <li className="uk-active tab">
               <a
                 href={"#" + tab.toLowerCase()}
                 onClick={() => handlePageChange(tab)}
@@ -38,7 +40,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               
 
           ))}
-          <li> <a href="/DHResume2022.pdf" download>
+          <li className='resBtn '> 
+            <a href="/DHResume2022.pdf" download className='uk-margin-remove'>
             <button className='resume'>Resume!</button>
           </a>
           </li>

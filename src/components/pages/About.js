@@ -11,7 +11,7 @@ export default function About() {
       <h6>I am a Software Developer living and working in South Dallas.</h6>
       <p>
         I studied Geological Physics at the University of Texas at Dallas where I found my love 
-        for math and data modeling. That led me to MySQL which just started my career in software developement.
+        for math and data modeling. That led me to MySQL which jump started my career in software developement.
         I have a keen eye for design with an extensive background in photography and graphic design and love learning new things 
         and solving hard problems. 
       </p>

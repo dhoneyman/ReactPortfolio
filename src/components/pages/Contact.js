@@ -2,21 +2,41 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className = 'uk-container'>
+      <div className='uk-grid uk-child-width-expand@s uk-text-center'>
+      {/* <h1>Contact</h1> */}
+      <div className='container'>
+      <div className=' uk-padding'>
+        <h2>Dylan Honeyman</h2>
+      </div>
+      <div className='container uk-text-left'>
+        <p>Want to reach out? Fill out the form or send me an email at <a href="mailto:dylanhoneyman@gmail.com">dylanhoneyman@gmail.com</a>. I'm always on the hunt for new and exciting projects so dont hesitate to reach out. </p>
+        </div>
+      </div>
+      <form className='uk-padding uk-width-1-2'>
+        <fieldset className="uk-fieldset">
+
+          <legend className="uk-legend">lets chat</legend>
+
+          <div className="uk-margin">
+            <input className="uk-input" type="text" placeholder="Name" />
+          </div>
+
+          <div className="uk-margin">
+            <input className="uk-input" type="email" placeholder="Email" />
+          </div>
+
+          <div className="uk-margin">
+            <textarea className="uk-textarea" rows="5" placeholder="Message"></textarea>
+          </div>
+
+
+
+        
+
+        </fieldset>
+      </form>
+      </div>
     </div>
   );
 }

@@ -1,47 +1,110 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-      
-  }
-  
-  h6, h1 {
-    font-family: 'Dongle', sans-serif;
-font-family: 'M PLUS Code Latin', sans-serif;
-font-family: 'Noto Serif', serif;
-  }
-  
-  body {
-    background-color: #D8DBE2;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1e2019;
+}
 
-html{
-    background-color: #D8DBE2;
-}  
-  
-  #nav {
-    background-color: #A9BCD0;
-  }
-  
-  .light-gh-icon {
-    /* background-color: black; */
-    color: black;
-  }
-  
-  .thumbnail{
-    border-radius: 10px;
-    opacity: .75;
-    transition: 1s;
-  }
-  
-  .portrait{
-    border-radius: 10px;
-    opacity: .85;
-  }
+h6,
+h1 {
+  font-family: "Dongle", sans-serif;
+  font-family: "M PLUS Code Latin", sans-serif;
+  font-family: "Noto Serif", serif;
+}
 
-  .thumbnail:hover{
-    opacity: 1;
+.logo {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #d3d0cb;
+}
+
+html {
+  background-color: #d3d0cb;
+}
+
+.resume {
+  padding: 10px;
+}
+
+#root {
+  position: relative;
+  padding-bottom: 120px;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  /* height:30px; */
+  width: 100%;
+}
+
+.socialthumb {
+  max-height: 40px;
+  /* width: auto; */
+}
+
+.logo {
+  max-height: 80px;
+  /* width: auto; */
+}
+
+li {
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+#nav {
+  background-color: #587b7f;
+}
+
+nav.stroke ul li a{
+  position: relative;
+  transition: 1s;
+}
+
+nav.stroke ul li a:after{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #e2c044;
+    height: 1px;
     transition: 1s;
-  }
+}
+nav.stroke ul li a:hover:after {
+  width: 80%;
+}
+
+.light-gh-icon {
+  /* background-color: black; */
+  color: black;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  opacity: 0.75;
+  transition: 1s;
+}
+
+.portrait {
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+  transition: 1s;
+}

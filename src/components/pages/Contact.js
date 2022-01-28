@@ -19,21 +19,16 @@ export default function Contact() {
           <legend className="uk-legend">lets chat</legend>
 
           <div className="uk-margin">
-            <input className="uk-input" type="text" placeholder="Name" />
+            <input className="uk-input" type="text" placeholder="Name" required/>
           </div>
 
           <div className="uk-margin">
-            <input className="uk-input" type="email" placeholder="Email" />
+            <input className="uk-input" type="email" placeholder="Email" required/>
           </div>
 
           <div className="uk-margin">
             <textarea className="uk-textarea" rows="5" placeholder="Message"></textarea>
           </div>
-
-
-
-        
-
         </fieldset>
       </form>
       </div>

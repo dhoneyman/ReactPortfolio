@@ -13,8 +13,8 @@ export default function Portfolio() {
                         <a href='https://github.com/dhoneyman/project-3' target="blank"><span className="uk-transition-fade light-gh-icon uk-padding" uk-icon="icon: github; ratio: 2"></span></a>
                     </div></a>
                 </div>
-                    <h3>Climb Base</h3>
-                    <p>A RESTful API where users can submit their favorite rock climbs, leave reviews and ratings, and engage with their community.</p>
+                    <h3>Paddle App</h3>
+                    <p>An online auction app that allows users to list and sell their items as well as bid on other users items. Built with the MERN stack and GraphQL to provide a lightning fast responce for the user with a flexible database.</p>
             </div>
             <div className='uk-padding uk-width-1-2'>
                 <div className="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">

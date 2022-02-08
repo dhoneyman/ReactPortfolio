@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           ))}
           <li className='resBtn '> 
-            <a href="/DHResume2022.pdf" download className='uk-margin-remove'>
+            <a href="/dhresume22.pdf" download className='uk-margin-remove'>
             <button className='resume'>Resume!</button>
           </a>
           </li>

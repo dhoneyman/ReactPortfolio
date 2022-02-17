@@ -24,7 +24,7 @@ export default function Portfolio() {
                     </div></a>
                 </div>
                     <h3>Climb Base</h3>
-                    <p>A RESTful API where users can submit their favorite rock climbs, leave reviews and ratings, and engage with their community.</p>
+                    <p>A RESTful API where users can submit their favorite rock climbs, leave reviews and ratings, and engage with their community. Built utilizing Handlebars, MySQL2, Sequelize, Materialize and Express.</p>
             </div>
             <div className='uk-padding uk-width-1-2'>
                 <div className="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
@@ -34,7 +34,7 @@ export default function Portfolio() {
                     </div></a>
                 </div>
                     <h3>MyDashboard</h3>
-                    <p>A browserbased dashboard where users can customize the look and feel and find their favorite stocks and news articles.</p>
+                    <p>A browserbased dashboard where users can customize the look and feel and find their favorite stocks and news articles. Built with good old fashioned HTML, CSS and jQuery.</p>
             </div>
             <div className='uk-padding uk-width-1-2'>
                 <div className="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
@@ -44,7 +44,7 @@ export default function Portfolio() {
                     </div></a>
                 </div>
                     <h3>Weather App</h3>
-                    <p>A weather app that displays current weather and a five day forecast. Searched cities saved for easy access.</p>
+                    <p>A weather app that displays current weather and a five day forecast. Searched cities saved for easy access. Built with jQuery and Bootstrap.</p>
             </div>
             <div className='uk-padding uk-width-1-2'>
                 <div className="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
@@ -74,7 +74,7 @@ export default function Portfolio() {
                     </div></a>
                 </div>
                     <h3>Employee Manager</h3>
-                    <p>A command line database manager for employees. Add departments, roles or employees. Manage pay and update employee info.</p>
+                    <p>A command line database manager for employees. Add departments, roles or employees. Manage pay and update employee info utilizing Inquirer.</p>
             </div>
             
         </div>

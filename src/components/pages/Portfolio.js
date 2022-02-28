@@ -30,7 +30,7 @@ export default function Portfolio() {
                 <div className="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
                     <a href='https://dhoneyman.github.io/MyDashboard/' target="blank"><img className='thumbnail' src={process.env.PUBLIC_URL + "/myss1.png"} alt="" /></a>
                     <a href='https://dhoneyman.github.io/MyDashboard/' target="blank"><div className="uk-position-bottom uk-padding">
-                    <a href='https://github.io/dhoneyman/MyDashboard/' target="blank"><span className="uk-transition-fade" uk-icon="icon: github; ratio: 2"></span></a>
+                    <a href='https://github.com/dhoneyman/MyDashboard' target="blank"><span className="uk-transition-fade" uk-icon="icon: github; ratio: 2"></span></a>
                     </div></a>
                 </div>
                     <h3>MyDashboard</h3>
